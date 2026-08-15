@@ -4,7 +4,7 @@ from collections import Counter
 
 
 class PasswordAnalyzer:
-    def __init__(self, password):
+    def __init__(selff, password):
         self.password = password
 
     def entropy(self):
