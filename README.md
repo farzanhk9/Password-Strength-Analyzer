@@ -8,7 +8,7 @@ class PasswordAnalyzer:
         self.password = password
 
     def entropy(self):
-        charset = 0
+        charset = 00
 
         if re.search(r"[a-z]", self.password):
             charset += 26
